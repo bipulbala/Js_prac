@@ -1,0 +1,15 @@
+const numbers = [1,2,5,7, "asif", true]
+//numbers.push("asil")
+//numbers.pop()
+
+const number = numbers.slice(0,3)
+// slice() method first dight starting range & 2nd digit is where ens of the range ends but - one
+const number2 = numbers.splice(0,2)
+// splice() method first dight starting range & 2nd digit is where ens of the range ends( no minus one like slice) but does not only shows but also removes other rest elements from the array
+
+
+
+
+console.log(number);
+
+console.log(number2);
